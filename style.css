@@ -24,6 +24,34 @@ body {
     background-color: #f9f9f9; /* Ajutez avec votre couleur de fond principale */
 }
 
-/* ========================================
-   VOTRE CODE CSS ICI
-   ======================================== */
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IN+Guides&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(212, 211, 211);
+}
+
+h1{
+    font-family: "Playwrite";
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px black;
+}
+
+li{
+    text-decoration: underline;
+}
+
+h3{
+    border-radius: 5px black;
+    border-bottom: 1rem;
+    padding: 15px;
+}
+p{
+    letter-spacing: 3px;
+    font-size: 15px;
+    padding: -5px;
+}
